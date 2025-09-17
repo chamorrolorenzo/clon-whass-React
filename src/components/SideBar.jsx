@@ -1,9 +1,10 @@
 import SearchBar from "../components/SearchBar"
 import ChatList from "../components/ChatList"
+import "../style/stylesidebar.css";
 
 const SideBar = () => {
   return (
-    <aside>
+    <aside className="sidebar">
       <SearchBar />
       <ChatList />
     </aside>

@@ -1,0 +1,60 @@
+
+.sidebar{
+  min-width: 20%;
+  gap: 10px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.search{
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.5px solid #ccc;
+  }
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+   }
+
+  
+   
+h4{
+    font-size: 14px;
+   margin: 5px;
+   margin-top: 20px;
+}
+p{
+    font-size: 10px;
+    margin: 5px;
+
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; /* hace el círculo */
+  margin-right: 5px;
+}
+
+.status-dot.online {
+  background-color: #00ff00; /* verde */
+  border: none; /* sin borde */
+}
+
+.status-dot.offline {
+  background-color: #ff0000; /* rojo */
+  border: none; /* sin borde */
+}

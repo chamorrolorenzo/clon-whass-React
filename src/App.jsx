@@ -1,9 +1,10 @@
+import Login from "./pages/Login"
+import Chat from "./pages/Chat"
+
 function App() {
   return (
-    <div>
-      <h1>Proyecto limpio 🚀</h1>
-    </div>
-  );
+    <Chat />
+  )
 }
 
-export default App;
+export default App
