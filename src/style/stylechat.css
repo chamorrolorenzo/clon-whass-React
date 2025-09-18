@@ -1,14 +1,15 @@
-.main {
-  display: flex;        /* pone los hijos en fila */
+main {
+  display: flex;       /* pone los hijos en fila */
   height: 100vh;        /* ocupa toda la pantalla */
 }
 
 .sidebar {
   width: 25%;           /* ancho fijo o proporcional */
   border-right: 1px solid #ddd;
+  
 }
 
-.chatWindow {
+.Window {
   flex: 1;              /* ocupa el resto del espacio */
   display: flex;
   flex-direction: column; /* para que header, messages y footer se apilen */

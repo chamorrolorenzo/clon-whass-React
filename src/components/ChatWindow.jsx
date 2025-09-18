@@ -4,11 +4,11 @@ import ChatFooter from "./ChatFooter"
 
 const ChatWindow = () => {
   return (
-    <>
+    <div className="windows">
       <ChatHeader />
       <MessageList />
       <ChatFooter />
-    </>
+    </div>
   )
 }
 
