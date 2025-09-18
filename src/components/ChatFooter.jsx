@@ -1,6 +1,12 @@
+
+import "../style/stylefooter.css";
+
 const ChatFooter = () => {
   return (
-    <h2>ChatFooter funcionando</h2>
+    <footer className="chat-footer">
+      <input type="text" placeholder="Enter text here..." className="text" />
+      <button title="Enviar" className="btn-enviar">✈️</button>
+    </footer>
   )
 }
 

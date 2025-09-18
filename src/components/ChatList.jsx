@@ -12,7 +12,7 @@ const contacts = [
 const ChatList = () => {
   return (
     <ul className="contact-list">
-      {contacts.map(contact => (
+      {contacts.map((contact) => (
         <li className="">
           <div className="contact">
             <img src={avatar} alt="imagen de perfil" />
@@ -26,6 +26,6 @@ const ChatList = () => {
       ))}
     </ul>
   )
-}
+};
 
 export default ChatList

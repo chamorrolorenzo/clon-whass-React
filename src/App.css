@@ -1,6 +1,7 @@
 .main {
   display: flex;        /* pone los hijos en fila */
   height: 100vh;        /* ocupa toda la pantalla */
+background-color: blue;
 }
 
 .sidebar {
@@ -9,7 +10,7 @@
 }
 
 .chatWindow {
-  flex: 1;              /* ocupa el resto del espacio */
+              /* ocupa el resto del espacio */
   display: flex;
   flex-direction: column; /* para que header, messages y footer se apilen */
 }
