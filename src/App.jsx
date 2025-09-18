@@ -1,9 +1,8 @@
-import Login from "./pages/Login"
-import Chat from "./pages/Chat"
-import "./style/styleChat.css";
+import RouterApp from "./Router/RouterApp"
+
 function App() {
   return (
-    <Chat />
+    <RouterApp />
   )
 }
 
